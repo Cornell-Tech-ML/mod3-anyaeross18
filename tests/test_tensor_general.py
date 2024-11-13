@@ -29,7 +29,6 @@ backend_tests = [pytest.param("fast", marks=pytest.mark.task3_1)]
 # ## Task 3.2
 matmul_tests = [pytest.param("fast", marks=pytest.mark.task3_2)]
 
-
 if numba.cuda.is_available():
     # ## Task 3.3
     backend_tests.append(pytest.param("cuda", marks=pytest.mark.task3_3))
