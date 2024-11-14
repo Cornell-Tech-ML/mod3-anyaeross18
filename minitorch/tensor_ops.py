@@ -11,6 +11,7 @@ from .tensor_data import (
     shape_broadcast,
     to_index,
     broadcast_index,
+    MAX_DIMS,
 )
 
 if TYPE_CHECKING:
@@ -380,25 +381,16 @@ def tensor_reduce(
         a_strides: Strides,
         reduce_dim: int,
     ) -> None:
-        out_index = np.array(out_shape)
-        a_index = np.array(a_shape)
+        out_index = np.zeros(MAX_DIMS, np.int32)
+        reduce_size = a_shape[reduce_dim]
 
         for i in range(len(out)):
             to_index(i, out_shape, out_index)
-            for j in range(len(a_shape)):
-                a_index[j] = out_index[j]
-
-            a_index[reduce_dim] = 0
-            out_pos = index_to_position(out_index, out_strides)
-            a_pos = index_to_position(a_index, a_strides)
-            result = a_storage[a_pos]
-
-            for k in range(1, a_shape[reduce_dim]):
-                a_index[reduce_dim] = k
-                a_pos = index_to_position(a_index, a_strides)
-                result = fn(result, a_storage[a_pos])
-
-            out[out_pos] = result
+            o = index_to_position(out_index, out_strides)
+            for j in range(reduce_size):
+                out_index[reduce_dim] = j
+                j = index_to_position(out_index, a_strides)
+                out[o] = fn(out[o], a_storage[j])
 
     return _reduce
 

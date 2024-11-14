@@ -376,4 +376,8 @@ def test_bmm(backend: str, data: DataObject) -> None:
         .sum(2)
         .view(D, A, C)
     )
+    """assert (
+        1 == 2
+    ), f"size: {c.size}, is_close: {c.is_close(c2)}, all: {c.is_close(c2).all()}, item {c.is_close(c2).all().item()}"
+    """
     assert_close_tensor(c, c2)
