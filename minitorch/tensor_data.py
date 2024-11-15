@@ -47,8 +47,8 @@ def index_to_position(index: Index, strides: Strides) -> int:
 
     """
     storage_ind = 0
-    for i in range(len(index)):
-        storage_ind += index[i] * strides[i]
+    for ind, stride in zip(index, strides):
+        storage_ind += ind * stride
     return storage_ind
 
 
