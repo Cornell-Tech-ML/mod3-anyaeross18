@@ -127,13 +127,22 @@ if __name__ == "__main__":
     if args.DATASET == "xor":
         data = minitorch.datasets["Xor"](PTS)
     elif args.DATASET == "simple":
-        data = minitorch.datasets["Simple"].simple(PTS)
+        data = minitorch.datasets["Simple"](PTS)
     elif args.DATASET == "split":
         data = minitorch.datasets["Split"](PTS)
 
     HIDDEN = int(args.HIDDEN)
     RATE = args.RATE
 
-    FastTrain(
+    print(f"backend: {args.BACKEND}, dataset: {args.DATASET}, hidden: {HIDDEN}, rate: {RATE}")
+
+    if args.BACKEND == "gpu":
+        print("Using GPUBackend")
+        FastTrain(HIDDEN, backend=GPUBackend).train(data, RATE)
+    else:
+        print("Using FastTensorBackend")
+        FastTrain(HIDDEN, backend=FastTensorBackend).train(data, RATE)
+
+    '''FastTrain(
         HIDDEN, backend=FastTensorBackend if args.BACKEND != "gpu" else GPUBackend
-    ).train(data, RATE)
+    ).train(data, RATE)'''
