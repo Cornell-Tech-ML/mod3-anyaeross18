@@ -32,58 +32,7 @@ The files that will be synced are:
         minitorch/tensor_data.py minitorch/tensor_functions.py minitorch/tensor_ops.py minitorch/operators.py minitorch/scalar.py minitorch/scalar_functions.py minitorch/module.py minitorch/autodiff.py minitorch/module.py project/run_manual.py project/run_scalar.py project/run_tensor.py minitorch/operators.py minitorch/module.py minitorch/autodiff.py minitorch/tensor.py minitorch/datasets.py minitorch/testing.py minitorch/optim.py
 
 
-## 3.1 & 3.2 Parallel Analytics Script
-## MAP
-
-================================================================================
- Parallel Accelerator Optimizing:  Function tensor_map.<locals>._map,
-C:\Users\15184\OneDrive\Documents\Machine Learning
-Engineering\mod3-anyaeross18\minitorch\fast_ops.py (174)
-================================================================================
-
-
-Parallel loop listing for  Function tensor_map.<locals>._map, C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\minitorch\fast_ops.py (174)
------------------------------------------------------------------------------|loop #ID
-    def _map(                                                                |
-        out: Storage,                                                        |
-        out_shape: Shape,                                                    |
-        out_strides: Strides,                                                |
-        in_storage: Storage,                                                 |
-        in_shape: Shape,                                                     |
-        in_strides: Strides,                                                 |
-    ) -> None:                                                               |
-        if len(out_strides) != len(in_strides):                              |
-            strides_match = False                                            |
-        elif (out_strides != in_strides).any():------------------------------| #0
-            strides_match = False                                            |
-        elif (out_shape != in_shape).any():----------------------------------| #1
-            strides_match = False                                            |
-        else:                                                                |
-            strides_match = True                                             |
-                                                                             |
-        if strides_match:                                                    |
-            for i in prange(out.size):---------------------------------------| #2
-                out[i] = fn(in_storage[i])                                   |
-        else:                                                                |
-            for i in prange(out.size):---------------------------------------| #3
-                out_index = np.zeros_like(out_shape, dtype=np.int32)         |
-                in_index = np.zeros_like(in_shape, dtype=np.int32)           |
-                to_index(i, out_shape, out_index)                            |
-                broadcast_index(out_index, out_shape, in_shape, in_index)    |
-                position_in = index_to_position(in_index, in_strides)        |
-                position_out = index_to_position(out_index, out_strides)     |
-                out[position_out] = fn(in_storage[position_in])              |
---------------------------------- Fusing loops ---------------------------------
-Attempting fusion of parallel loops (combines loops with similar properties)...
-Following the attempted fusion of parallel for-loops there are 4 parallel for-
-loop(s) (originating from loops labelled: #0, #1, #2, #3).
---------------------------------------------------------------------------------
------------------------------ Before Optimisation ------------------------------
---------------------------------------------------------------------------------
------------------------------- After Optimisation ------------------------------
-Parallel structure is already optimal.
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+-------------------------------
 
 ---------------------------Loop invariant code motion---------------------------
 Allocation hoisting:
