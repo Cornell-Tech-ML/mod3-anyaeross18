@@ -32,7 +32,7 @@ The files that will be synced are:
         minitorch/tensor_data.py minitorch/tensor_functions.py minitorch/tensor_ops.py minitorch/operators.py minitorch/scalar.py minitorch/scalar_functions.py minitorch/module.py minitorch/autodiff.py minitorch/module.py project/run_manual.py project/run_scalar.py project/run_tensor.py minitorch/operators.py minitorch/module.py minitorch/autodiff.py minitorch/tensor.py minitorch/datasets.py minitorch/testing.py minitorch/optim.py
 
 
-## 3.1 & 3.2 Parallel Analytics Script <br>
+# 3.1 & 3.2 Parallel Analytics Script <br>
 ## MAP <br>
 
 ================================================================================ <br>
@@ -301,7 +301,9 @@ Parallel structure is already optimal.<br>
 Allocation hoisting:<br>
 No allocation hoisting found<br>
 None<br>
-## Timing Graph 3.4:<br>
+
+        
+# Timing Graph 3.4:<br>
 NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.<br>
   warn(NumbaPerformanceWarning(msg))<br>
 Running size 64<br>
@@ -319,7 +321,7 @@ Running size 512<br>
 Running size 1024<br>
 {'fast': np.float64(3.6771787802378335), 'gpu': np.float64(1.4124451478322346)}<br>
 
-# Timing summary:<br>
+## Timing summary:<br>
 Size: 64<br>
     fast: 0.00351<br>
     gpu: 0.01174<br>
@@ -336,8 +338,8 @@ Size: 1024<br>
     fast: 3.67718<br>
     gpu: 1.41245<br>
 
-## 3.5: Training Loss, Accuracy, and Timing<br>
-# Small Models:<br>
+# 3.5: Training Loss, Accuracy, and Timing<br>
+## Small Models:<br>
 backend: cpu, dataset: simple, hidden: 100, rate: 0.05, points: 50 <br>
 Epoch 0, loss 5.52817496286788, correct 27, time 30.40 seconds
 Epoch 10, loss 2.705329348675475, correct 47, time 0.12 seconds
@@ -652,7 +654,7 @@ Epoch 470, loss 0.14762431192793155, correct 50, time 4.14 seconds
 Epoch 480, loss 0.5213497853652733, correct 50, time 4.17 seconds
 Epoch 490, loss 0.2111923492298178, correct 50, time 3.89 seconds
 
-# Large Model
+## Large Model
 backend: cpu, dataset: simple, hidden: 250, rate: 0.05, points: 50<br>
 Epoch 0, loss 0.7606393531559354, correct 49, time 35.80 seconds
 Epoch 10, loss 0.25941216342984647, correct 50, time 0.53 seconds
