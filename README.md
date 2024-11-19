@@ -342,420 +342,419 @@ Size: 1024<br>
 # 3.5: Training Loss, Accuracy, and Timing<br>
 ## Small Models:<br>
 backend: cpu, dataset: simple, hidden: 100, rate: 0.05, points: 50 <br>
-Epoch 0, loss 5.52817496286788, correct 27, time 30.40 seconds
-Epoch 10, loss 2.705329348675475, correct 47, time 0.12 seconds
-Epoch 20, loss 1.4890510000659218, correct 48, time 0.11 seconds
-Epoch 30, loss 0.8635561816490419, correct 49, time 0.13 seconds
-Epoch 40, loss 2.102966128787591, correct 50, time 0.11 seconds
-Epoch 50, loss 0.3520923121836196, correct 50, time 0.11 seconds
-Epoch 60, loss 0.9942342939645927, correct 49, time 0.12 seconds
-Epoch 70, loss 0.5556668354600687, correct 49, time 0.12 seconds
-Epoch 80, loss 0.8704323319032629, correct 49, time 0.15 seconds
-Epoch 90, loss 0.41930459163684614, correct 49, time 0.15 seconds
-Epoch 100, loss 0.38002522357595137, correct 50, time 0.12 seconds
-Epoch 110, loss 0.22176702976972645, correct 50, time 0.11 seconds
-Epoch 120, loss 0.15380724550617056, correct 50, time 0.12 seconds
-Epoch 130, loss 0.9830008389780323, correct 49, time 0.14 seconds
-Epoch 140, loss 0.8130525341225274, correct 50, time 0.12 seconds
-Epoch 150, loss 0.9425638691990154, correct 50, time 0.11 seconds
-Epoch 160, loss 0.03902290282321021, correct 50, time 0.14 seconds
-Epoch 170, loss 0.5649559134783091, correct 50, time 0.11 seconds
-Epoch 180, loss 0.11346897367239869, correct 50, time 0.11 seconds
-Epoch 190, loss 0.009645903830819764, correct 50, time 0.13 seconds
-Epoch 200, loss 0.7143023831890992, correct 50, time 0.15 seconds
-Epoch 210, loss 0.030674413706201026, correct 50, time 0.11 seconds
-Epoch 220, loss 0.01696839361679683, correct 50, time 0.16 seconds
-Epoch 230, loss 0.6882777088418437, correct 50, time 0.16 seconds
-Epoch 240, loss 0.8148632679134246, correct 50, time 0.11 seconds
-Epoch 250, loss 1.00958061866963, correct 50, time 0.12 seconds
-Epoch 260, loss 0.11366305908169537, correct 50, time 0.11 seconds
-Epoch 270, loss 0.009151233998635997, correct 50, time 0.11 seconds
-Epoch 280, loss 0.33597955849704786, correct 49, time 0.12 seconds
-Epoch 290, loss 0.016957209697545744, correct 50, time 0.11 seconds
-Epoch 300, loss 0.026200380791581643, correct 50, time 0.12 seconds
-Epoch 310, loss 0.6929734779508294, correct 50, time 0.11 seconds
-Epoch 320, loss 0.24528007055171266, correct 50, time 0.14 seconds
-Epoch 330, loss 0.2519082645030878, correct 49, time 0.14 seconds
-Epoch 340, loss 0.6816702418345967, correct 50, time 0.14 seconds
-Epoch 350, loss 0.34192934870541547, correct 50, time 0.14 seconds
-Epoch 360, loss 0.2772153893972079, correct 50, time 0.14 seconds
-Epoch 370, loss 0.8371572713872154, correct 50, time 0.14 seconds
-Epoch 380, loss 0.02783097996665715, correct 50, time 0.25 seconds
-Epoch 390, loss 0.12781339685904167, correct 50, time 0.15 seconds
-Epoch 400, loss 0.3282797435560829, correct 50, time 0.15 seconds
-Epoch 410, loss 0.006024770372831333, correct 50, time 0.14 seconds
-Epoch 420, loss 0.2923961873816653, correct 50, time 0.15 seconds
-Epoch 430, loss 0.019581193532563226, correct 50, time 0.14 seconds
-Epoch 440, loss 0.017260245097213838, correct 50, time 0.15 seconds
-Epoch 450, loss 0.29299085807796454, correct 50, time 0.15 seconds
-Epoch 460, loss 0.24547205239473605, correct 50, time 0.14 seconds
-Epoch 470, loss 0.09534738060121063, correct 50, time 0.14 seconds
-Epoch 480, loss 0.3077533500410611, correct 50, time 0.15 seconds
-Epoch 490, loss 0.098388512773383, correct 50, time 0.15 seconds
-
+Epoch 0, loss 5.52817496286788, correct 27, time 30.40 seconds<br>
+Epoch 10, loss 2.705329348675475, correct 47, time 0.12 seconds<br>
+Epoch 20, loss 1.4890510000659218, correct 48, time 0.11 seconds<br>
+Epoch 30, loss 0.8635561816490419, correct 49, time 0.13 seconds<br>
+Epoch 40, loss 2.102966128787591, correct 50, time 0.11 seconds<br>
+Epoch 50, loss 0.3520923121836196, correct 50, time 0.11 seconds<br>
+Epoch 60, loss 0.9942342939645927, correct 49, time 0.12 seconds<br>
+Epoch 70, loss 0.5556668354600687, correct 49, time 0.12 seconds<br>
+Epoch 80, loss 0.8704323319032629, correct 49, time 0.15 seconds<br>
+Epoch 90, loss 0.41930459163684614, correct 49, time 0.15 seconds<br>
+Epoch 100, loss 0.38002522357595137, correct 50, time 0.12 seconds<br>
+Epoch 110, loss 0.22176702976972645, correct 50, time 0.11 seconds<br>
+Epoch 120, loss 0.15380724550617056, correct 50, time 0.12 seconds<br>
+Epoch 130, loss 0.9830008389780323, correct 49, time 0.14 seconds<br>
+Epoch 140, loss 0.8130525341225274, correct 50, time 0.12 seconds<br>
+Epoch 150, loss 0.9425638691990154, correct 50, time 0.11 seconds<br>
+Epoch 160, loss 0.03902290282321021, correct 50, time 0.14 seconds<br>
+Epoch 170, loss 0.5649559134783091, correct 50, time 0.11 seconds<br>
+Epoch 180, loss 0.11346897367239869, correct 50, time 0.11 seconds<br>
+Epoch 190, loss 0.009645903830819764, correct 50, time 0.13 seconds<br>
+Epoch 200, loss 0.7143023831890992, correct 50, time 0.15 seconds<br>
+Epoch 210, loss 0.030674413706201026, correct 50, time 0.11 seconds<br>
+Epoch 220, loss 0.01696839361679683, correct 50, time 0.16 seconds<br>
+Epoch 230, loss 0.6882777088418437, correct 50, time 0.16 seconds<br>
+Epoch 240, loss 0.8148632679134246, correct 50, time 0.11 seconds<br>
+Epoch 250, loss 1.00958061866963, correct 50, time 0.12 seconds<br>
+Epoch 260, loss 0.11366305908169537, correct 50, time 0.11 seconds<br>
+Epoch 270, loss 0.009151233998635997, correct 50, time 0.11 seconds<br>
+Epoch 280, loss 0.33597955849704786, correct 49, time 0.12 seconds<br>
+Epoch 290, loss 0.016957209697545744, correct 50, time 0.11 seconds<br>
+Epoch 300, loss 0.026200380791581643, correct 50, time 0.12 seconds<br>
+Epoch 310, loss 0.6929734779508294, correct 50, time 0.11 seconds<br>
+Epoch 320, loss 0.24528007055171266, correct 50, time 0.14 seconds<br>
+Epoch 330, loss 0.2519082645030878, correct 49, time 0.14 seconds<br>
+Epoch 340, loss 0.6816702418345967, correct 50, time 0.14 seconds<br>
+Epoch 350, loss 0.34192934870541547, correct 50, time 0.14 seconds<br>
+Epoch 360, loss 0.2772153893972079, correct 50, time 0.14 seconds<br>
+Epoch 370, loss 0.8371572713872154, correct 50, time 0.14 seconds<br>
+Epoch 380, loss 0.02783097996665715, correct 50, time 0.25 seconds<br>
+Epoch 390, loss 0.12781339685904167, correct 50, time 0.15 seconds<br>
+Epoch 400, loss 0.3282797435560829, correct 50, time 0.15 seconds<br>
+Epoch 410, loss 0.006024770372831333, correct 50, time 0.14 seconds<br>
+Epoch 420, loss 0.2923961873816653, correct 50, time 0.15 seconds<br>
+Epoch 430, loss 0.019581193532563226, correct 50, time 0.14 seconds<br>
+Epoch 440, loss 0.017260245097213838, correct 50, time 0.15 seconds<br>
+Epoch 450, loss 0.29299085807796454, correct 50, time 0.15 seconds<br>
+Epoch 460, loss 0.24547205239473605, correct 50, time 0.14 seconds<br>
+Epoch 470, loss 0.09534738060121063, correct 50, time 0.14 seconds<br>
+Epoch 480, loss 0.3077533500410611, correct 50, time 0.15 seconds<br>
+Epoch 490, loss 0.098388512773383, correct 50, time 0.15 seconds<br>
 
 backend: gpu, dataset: simple, hidden: 100, rate: 0.05, points: 50 <br>
-Epoch 0, loss 6.68296364997742, correct 37, time 17.74 seconds
-Epoch 10, loss 2.383918154080912, correct 48, time 8.92 seconds
-Epoch 20, loss 1.6429061701666883, correct 48, time 3.50 seconds
-Epoch 30, loss 1.3679749965353651, correct 48, time 3.61 seconds
-Epoch 40, loss 1.0135184895980613, correct 48, time 4.02 seconds
-Epoch 50, loss 2.3424653219122815, correct 47, time 4.08 seconds
-Epoch 60, loss 0.6325761445447473, correct 49, time 3.56 seconds
-Epoch 70, loss 1.0453719903804104, correct 50, time 3.77 seconds
-Epoch 80, loss 2.121157689763397, correct 46, time 3.46 seconds
-Epoch 90, loss 0.5230149603322843, correct 50, time 3.50 seconds
-Epoch 100, loss 0.4837384136625925, correct 50, time 3.89 seconds
-Epoch 110, loss 0.8792224520712084, correct 50, time 3.88 seconds
-Epoch 120, loss 1.0588779945104387, correct 48, time 4.17 seconds
-Epoch 130, loss 0.3586506777623135, correct 50, time 3.62 seconds
-Epoch 140, loss 0.0033141704232045365, correct 50, time 3.57 seconds
-Epoch 150, loss 0.2159235573102668, correct 48, time 4.03 seconds
-Epoch 160, loss 1.6465032568216644, correct 48, time 3.48 seconds
-Epoch 170, loss 0.7556596802348093, correct 50, time 3.59 seconds
-Epoch 180, loss 0.5330359323571452, correct 50, time 3.41 seconds
-Epoch 190, loss 0.7515044807146463, correct 49, time 3.41 seconds
-Epoch 200, loss 0.8452292745810825, correct 50, time 3.58 seconds
-Epoch 210, loss 1.455229025610616, correct 49, time 3.54 seconds
-Epoch 220, loss 0.587690827734966, correct 49, time 3.82 seconds
-Epoch 230, loss 0.4220511836521446, correct 49, time 3.55 seconds
-Epoch 240, loss 1.1336858393192348, correct 49, time 3.49 seconds
-Epoch 250, loss 0.9979706738898009, correct 50, time 3.39 seconds
-Epoch 260, loss 0.5632417980239892, correct 50, time 3.82 seconds
-Epoch 270, loss 0.33583567129318836, correct 50, time 2.56 seconds
-Epoch 280, loss 0.07653650579498168, correct 50, time 3.17 seconds
-Epoch 290, loss 0.3331156186441163, correct 50, time 3.12 seconds
-Epoch 300, loss 0.0024275010634724477, correct 50, time 3.33 seconds
-Epoch 310, loss 0.6181014827323923, correct 50, time 2.66 seconds
-Epoch 320, loss 0.570639450364238, correct 50, time 2.69 seconds
-Epoch 330, loss 0.04300331304675153, correct 50, time 3.09 seconds
-Epoch 340, loss 0.8986213637055306, correct 50, time 3.38 seconds
-Epoch 350, loss 0.0011414751015550117, correct 49, time 3.63 seconds
-Epoch 360, loss 0.42219524285311294, correct 50, time 3.35 seconds
-Epoch 370, loss 0.18067900446251242, correct 50, time 3.22 seconds
-Epoch 380, loss 0.15880222072823302, correct 50, time 3.65 seconds
-Epoch 390, loss 1.5108025144555475, correct 48, time 3.43 seconds
-Epoch 400, loss 0.46993625146845774, correct 50, time 3.42 seconds
-Epoch 410, loss 0.19824938322973978, correct 50, time 2.62 seconds
-Epoch 420, loss 0.19218040906332098, correct 49, time 2.87 seconds
-Epoch 430, loss 0.4400570526457783, correct 50, time 2.64 seconds
-Epoch 440, loss 0.3651940205557449, correct 50, time 3.03 seconds
-Epoch 450, loss 1.0481747283537823, correct 49, time 2.88 seconds
-Epoch 460, loss 0.2367450129668335, correct 50, time 2.73 seconds
-Epoch 470, loss 0.024376564032230298, correct 50, time 2.79 seconds
-Epoch 480, loss 0.2679060064414669, correct 50, time 2.57 seconds
-Epoch 490, loss 0.3587546737625343, correct 50, time 2.55 seconds
-
+Epoch 0, loss 6.68296364997742, correct 37, time 17.74 seconds<br>
+Epoch 10, loss 2.383918154080912, correct 48, time 8.92 seconds<br>
+Epoch 20, loss 1.6429061701666883, correct 48, time 3.50 seconds<br>
+Epoch 30, loss 1.3679749965353651, correct 48, time 3.61 seconds<br>
+Epoch 40, loss 1.0135184895980613, correct 48, time 4.02 seconds<br>
+Epoch 50, loss 2.3424653219122815, correct 47, time 4.08 seconds<br>
+Epoch 60, loss 0.6325761445447473, correct 49, time 3.56 seconds<br>
+Epoch 70, loss 1.0453719903804104, correct 50, time 3.77 seconds<br>
+Epoch 80, loss 2.121157689763397, correct 46, time 3.46 seconds<br>
+Epoch 90, loss 0.5230149603322843, correct 50, time 3.50 seconds<br>
+Epoch 100, loss 0.4837384136625925, correct 50, time 3.89 seconds<br>
+Epoch 110, loss 0.8792224520712084, correct 50, time 3.88 seconds<br>
+Epoch 120, loss 1.0588779945104387, correct 48, time 4.17 seconds<br>
+Epoch 130, loss 0.3586506777623135, correct 50, time 3.62 seconds<br>
+Epoch 140, loss 0.0033141704232045365, correct 50, time 3.57 seconds<br>
+Epoch 150, loss 0.2159235573102668, correct 48, time 4.03 seconds<br>
+Epoch 160, loss 1.6465032568216644, correct 48, time 3.48 seconds<br>
+Epoch 170, loss 0.7556596802348093, correct 50, time 3.59 seconds<br>
+Epoch 180, loss 0.5330359323571452, correct 50, time 3.41 seconds<br>
+Epoch 190, loss 0.7515044807146463, correct 49, time 3.41 seconds<br>
+Epoch 200, loss 0.8452292745810825, correct 50, time 3.58 seconds<br>
+Epoch 210, loss 1.455229025610616, correct 49, time 3.54 seconds<br>
+Epoch 220, loss 0.587690827734966, correct 49, time 3.82 seconds<br>
+Epoch 230, loss 0.4220511836521446, correct 49, time 3.55 seconds<br>
+Epoch 240, loss 1.1336858393192348, correct 50, time 3.44 seconds<br>
+Epoch 250, loss 1.3061055945508478, correct 50, time 3.58 seconds<br>
+Epoch 260, loss 0.8493427744421964, correct 49, time 3.79 seconds<br>
+Epoch 270, loss 0.2277250392912073, correct 50, time 3.50 seconds<br>
+Epoch 280, loss 1.3565682322845304, correct 50, time 3.52 seconds<br>
+Epoch 290, loss 0.6185873804431764, correct 50, time 3.54 seconds<br>
+Epoch 300, loss 0.32445498142476044, correct 50, time 3.66 seconds<br>
+Epoch 310, loss 0.5511276251847097, correct 50, time 3.61 seconds<br>
+Epoch 320, loss 0.3321710915235155, correct 50, time 3.70 seconds<br>
+Epoch 330, loss 0.4487310918252116, correct 50, time 3.78 seconds<br>
+Epoch 340, loss 0.2646883675056445, correct 50, time 3.70 seconds<br>
+Epoch 350, loss 0.42280397173828356, correct 50, time 3.60 seconds<br>
+Epoch 360, loss 0.14173063363225693, correct 50, time 3.69 seconds<br>
+Epoch 370, loss 0.4392250927043539, correct 50, time 3.65 seconds<br>
+Epoch 380, loss 0.26730525753617935, correct 50, time 3.63 seconds<br>
+Epoch 390, loss 0.2908382705646153, correct 50, time 3.78 seconds<br>
+Epoch 400, loss 0.015366871381032104, correct 50, time 3.80 seconds<br>
+Epoch 410, loss 0.5586355080868729, correct 50, time 3.72 seconds<br>
+Epoch 420, loss 0.5977382212745476, correct 50, time 3.58 seconds<br>
+Epoch 430, loss 0.3163880578361895, correct 50, time 3.60 seconds<br>
+Epoch 440, loss 0.5139085100663011, correct 50, time 3.60 seconds<br>
+Epoch 450, loss 0.24089860451886512, correct 50, time 3.62 seconds<br>
+Epoch 460, loss 0.07105509053984617, correct 50, time 3.68 seconds<br>
+Epoch 470, loss 0.6941177627081114, correct 50, time 3.56 seconds<br>
+Epoch 480, loss 0.3962678197074678, correct 50, time 3.59 seconds<br>
+Epoch 490, loss 0.38813487147049826, correct 50, time 3.60 seconds<br>
 
 backend: cpu, dataset: split, hidden: 100, rate: 0.05, points: 50<br>
-Epoch 0, loss 9.19483399736696, correct 31, time 27.72 seconds
-Epoch 10, loss 8.405148817681415, correct 39, time 0.11 seconds
-Epoch 20, loss 5.383761765652042, correct 39, time 0.11 seconds
-Epoch 30, loss 5.02391445705955, correct 43, time 0.13 seconds
-Epoch 40, loss 5.541219299962146, correct 43, time 0.13 seconds
-Epoch 50, loss 4.490757296141566, correct 37, time 0.11 seconds
-Epoch 60, loss 4.972234363410205, correct 44, time 0.11 seconds
-Epoch 70, loss 3.018466397654893, correct 42, time 0.11 seconds
-Epoch 80, loss 4.546883788828131, correct 46, time 0.10 seconds
-Epoch 90, loss 2.081491967384871, correct 46, time 0.10 seconds
-Epoch 100, loss 1.6225524286219792, correct 48, time 0.11 seconds
-Epoch 110, loss 2.379710088402255, correct 43, time 0.11 seconds
-Epoch 120, loss 1.6126376006614547, correct 47, time 0.10 seconds
-Epoch 130, loss 2.4098899788896366, correct 44, time 0.15 seconds
-Epoch 140, loss 4.2603655270006415, correct 47, time 0.10 seconds
-Epoch 150, loss 1.5852417438696964, correct 47, time 0.11 seconds
-Epoch 160, loss 1.9129506162825392, correct 46, time 0.11 seconds
-Epoch 170, loss 1.7246702595671435, correct 49, time 0.10 seconds
-Epoch 180, loss 2.2362033187498143, correct 47, time 0.11 seconds
-Epoch 190, loss 1.6565151370875626, correct 49, time 0.11 seconds
-Epoch 200, loss 1.0867448301385187, correct 48, time 0.11 seconds
-Epoch 210, loss 2.8660134963232737, correct 46, time 0.12 seconds
-Epoch 220, loss 1.7080830178536939, correct 47, time 0.12 seconds
-Epoch 230, loss 0.9837844659186151, correct 49, time 0.12 seconds
-Epoch 240, loss 1.293236374146267, correct 45, time 0.11 seconds
-Epoch 250, loss 1.4869302825292274, correct 46, time 0.12 seconds
-Epoch 260, loss 0.8006648695748868, correct 48, time 0.12 seconds
-Epoch 270, loss 1.9867720699013034, correct 47, time 0.12 seconds
-Epoch 280, loss 2.6384880751299864, correct 49, time 0.11 seconds
-Epoch 290, loss 3.4842850867453983, correct 44, time 0.11 seconds
-Epoch 300, loss 1.9032442911441771, correct 49, time 0.11 seconds
-Epoch 310, loss 1.0205146032244738, correct 49, time 0.11 seconds
-Epoch 320, loss 0.2587598025608416, correct 49, time 0.11 seconds
-Epoch 330, loss 1.9328023424670397, correct 49, time 0.11 seconds
-Epoch 340, loss 0.2778828195423739, correct 49, time 0.11 seconds
-Epoch 350, loss 0.5940669571030852, correct 49, time 0.11 seconds
-Epoch 360, loss 2.5326698236915206, correct 49, time 0.11 seconds
-Epoch 370, loss 0.5411868699100493, correct 49, time 0.13 seconds
-Epoch 380, loss 0.9466621037952306, correct 49, time 0.24 seconds
-Epoch 390, loss 1.0649361954061662, correct 48, time 0.13 seconds
-Epoch 400, loss 0.7954955369284609, correct 49, time 0.14 seconds
-Epoch 410, loss 0.7188432472201483, correct 47, time 0.14 seconds
-Epoch 420, loss 0.4878156869012766, correct 46, time 0.14 seconds
-Epoch 430, loss 3.0469188793542097, correct 47, time 0.14 seconds
-Epoch 440, loss 1.3868048337030472, correct 48, time 0.16 seconds
-Epoch 450, loss 2.345493699178271, correct 45, time 0.16 seconds
-Epoch 460, loss 1.3453385303776253, correct 49, time 0.15 seconds
-Epoch 470, loss 0.20964734374049118, correct 50, time 0.14 seconds
-Epoch 480, loss 0.1614603977532976, correct 50, time 0.14 seconds
-Epoch 490, loss 0.0118887780572651, correct 50, time 0.15 seconds
+Epoch 0, loss 9.19483399736696, correct 31, time 27.72 seconds<br>
+Epoch 10, loss 8.405148817681415, correct 39, time 0.11 seconds<br>
+Epoch 20, loss 5.383761765652042, correct 39, time 0.11 seconds<br>
+Epoch 30, loss 5.02391445705955, correct 43, time 0.13 seconds<br>
+Epoch 40, loss 5.541219299962146, correct 43, time 0.13 seconds<br>
+Epoch 50, loss 4.490757296141566, correct 37, time 0.11 seconds<br>
+Epoch 60, loss 4.972234363410205, correct 44, time 0.11 seconds<br>
+Epoch 70, loss 3.018466397654893, correct 42, time 0.11 seconds<br>
+Epoch 80, loss 4.546883788828131, correct 46, time 0.10 seconds<br>
+Epoch 90, loss 2.081491967384871, correct 46, time 0.10 seconds<br>
+Epoch 100, loss 1.6225524286219792, correct 48, time 0.11 seconds<br>
+Epoch 110, loss 2.379710088402255, correct 43, time 0.11 seconds<br>
+Epoch 120, loss 1.6126376006614547, correct 47, time 0.10 seconds<br>
+Epoch 130, loss 2.4098899788896366, correct 44, time 0.15 seconds<br>
+Epoch 140, loss 4.2603655270006415, correct 47, time 0.10 seconds<br>
+Epoch 150, loss 1.5852417438696964, correct 47, time 0.11 seconds<br>
+Epoch 160, loss 1.9129506162825392, correct 46, time 0.11 seconds<br>
+Epoch 170, loss 1.7246702595671435, correct 49, time 0.10 seconds<br>
+Epoch 180, loss 2.2362033187498143, correct 47, time 0.11 seconds<br>
+Epoch 190, loss 1.6565151370875626, correct 49, time 0.11 seconds<br>
+Epoch 200, loss 1.0867448301385187, correct 48, time 0.11 seconds<br>
+Epoch 210, loss 2.8660134963232737, correct 46, time 0.12 seconds<br>
+Epoch 220, loss 1.7080830178536939, correct 47, time 0.12 seconds<br>
+Epoch 230, loss 0.9837844659186151, correct 49, time 0.12 seconds<br>
+Epoch 240, loss 1.293236374146267, correct 45, time 0.11 seconds<br>
+Epoch 250, loss 1.4869302825292274, correct 46, time 0.12 seconds<br>
+Epoch 260, loss 0.8006648695748868, correct 48, time 0.12 seconds<br>
+Epoch 270, loss 1.9867720699013034, correct 47, time 0.12 seconds<br>
+Epoch 280, loss 2.6384880751299864, correct 49, time 0.11 seconds<br>
+Epoch 290, loss 3.4842850867453983, correct 44, time 0.11 seconds<br>
+Epoch 300, loss 1.9032442911441771, correct 49, time 0.11 seconds<br>
+Epoch 310, loss 1.0205146032244738, correct 49, time 0.11 seconds<br>
+Epoch 320, loss 0.2587598025608416, correct 49, time 0.11 seconds<br>
+Epoch 330, loss 1.9328023424670397, correct 49, time 0.11 seconds<br>
+Epoch 340, loss 0.2778828195423739, correct 49, time 0.11 seconds<br>
+Epoch 350, loss 0.5940669571030852, correct 49, time 0.11 seconds<br>
+Epoch 360, loss 2.5326698236915206, correct 49, time 0.11 seconds<br>
+Epoch 370, loss 0.5411868699100493, correct 49, time 0.13 seconds<br>
+Epoch 380, loss 0.9466621037952306, correct 49, time 0.24 seconds<br>
+Epoch 390, loss 1.0649361954061662, correct 48, time 0.13 seconds<br>
+Epoch 400, loss 0.7954955369284609, correct 49, time 0.14 seconds<br>
+Epoch 410, loss 0.7188432472201483, correct 47, time 0.14 seconds<br>
+Epoch 420, loss 0.4878156869012766, correct 46, time 0.14 seconds<br>
+Epoch 430, loss 3.0469188793542097, correct 47, time 0.14 seconds<br>
+Epoch 440, loss 1.3868048337030472, correct 48, time 0.16 seconds<br>
+Epoch 450, loss 2.345493699178271, correct 45, time 0.16 seconds<br>
+Epoch 460, loss 1.3453385303776253, correct 49, time 0.15 seconds<br>
+Epoch 470, loss 0.20964734374049118, correct 50, time 0.14 seconds<br>
+Epoch 480, loss 0.1614603977532976, correct 50, time 0.14 seconds<br>
+Epoch 490, loss 0.0118887780572651, correct 50, time 0.15 seconds<br>
 
 backend: gpu, dataset: split, hidden: 100, rate: 0.05, points: 50 <br>
-Epoch 0, loss 5.657220562848061, correct 32, time 7.19 seconds
-Epoch 10, loss 7.771813451817472, correct 20, time 3.59 seconds
-Epoch 20, loss 4.390204274814756, correct 40, time 3.49 seconds
-Epoch 30, loss 4.682450189826815, correct 45, time 3.60 seconds
-Epoch 40, loss 2.4488682144433236, correct 48, time 3.49 seconds
-Epoch 50, loss 2.4681724160292617, correct 49, time 3.56 seconds
-Epoch 60, loss 2.4261143832587555, correct 45, time 3.70 seconds
-Epoch 70, loss 1.7713401043514434, correct 50, time 3.59 seconds
-Epoch 80, loss 1.603895997609591, correct 49, time 3.64 seconds
-Epoch 90, loss 1.5644928653124834, correct 47, time 3.50 seconds
-Epoch 100, loss 2.75301124400299, correct 48, time 3.59 seconds
-Epoch 110, loss 1.539822924297964, correct 50, time 3.68 seconds
-Epoch 120, loss 1.2809096437610408, correct 49, time 3.61 seconds
-Epoch 130, loss 1.022715524899043, correct 50, time 3.56 seconds
-Epoch 140, loss 1.5698478627537908, correct 49, time 3.45 seconds
-Epoch 150, loss 0.4358144683444658, correct 50, time 3.51 seconds
-Epoch 160, loss 0.9595922649696866, correct 50, time 3.46 seconds
-Epoch 170, loss 0.5860427930078508, correct 50, time 3.60 seconds
-Epoch 180, loss 0.38918018419997474, correct 49, time 3.44 seconds
-Epoch 190, loss 0.45877751476919487, correct 50, time 3.52 seconds
-Epoch 200, loss 1.3648233947085153, correct 50, time 3.61 seconds
-Epoch 210, loss 0.029750519370476115, correct 49, time 3.54 seconds
-Epoch 220, loss 0.38641139104088107, correct 49, time 3.64 seconds
-Epoch 230, loss 0.613503799054451, correct 50, time 3.69 seconds
-Epoch 240, loss 0.6863075324821715, correct 50, time 3.62 seconds
-Epoch 250, loss 1.6095740382632653, correct 50, time 3.58 seconds
-Epoch 260, loss 0.21085961251565635, correct 50, time 3.40 seconds
-Epoch 270, loss 0.9586587702088661, correct 50, time 3.49 seconds
-Epoch 280, loss 0.9764397941489014, correct 49, time 3.56 seconds
-Epoch 290, loss 0.5618882048210706, correct 50, time 4.19 seconds
-Epoch 300, loss 0.26327159872543693, correct 50, time 3.58 seconds
-Epoch 310, loss 0.7917247891382888, correct 50, time 3.49 seconds
-Epoch 320, loss 1.1096626014218196, correct 50, time 3.23 seconds
-Epoch 330, loss 0.6406320778971238, correct 50, time 2.69 seconds
-Epoch 340, loss 0.846313813545545, correct 50, time 3.32 seconds
-Epoch 350, loss 0.7583041295213265, correct 50, time 3.26 seconds
-Epoch 360, loss 0.22940401146484063, correct 50, time 3.26 seconds
-Epoch 370, loss 0.49462464196994654, correct 50, time 3.08 seconds
-Epoch 380, loss 0.03286338576384899, correct 50, time 2.48 seconds
-Epoch 390, loss 0.25490411655417533, correct 50, time 3.22 seconds
-Epoch 400, loss 0.010084630896794147, correct 50, time 3.20 seconds
-Epoch 410, loss 0.6792887063297882, correct 50, time 2.48 seconds
-Epoch 420, loss 0.3898809696778756, correct 50, time 2.55 seconds
-Epoch 430, loss 0.06365866209141839, correct 50, time 2.81 seconds
-Epoch 440, loss 0.19875353335078066, correct 50, time 2.53 seconds
-Epoch 450, loss 0.8519215056759522, correct 50, time 2.56 seconds
-Epoch 460, loss 0.6238691580975493, correct 50, time 2.56 seconds
-Epoch 470, loss 0.08788143184323322, correct 50, time 3.88 seconds
-Epoch 480, loss 0.10617325375419831, correct 50, time 3.98 seconds
-Epoch 490, loss 0.6531245361606888, correct 50, time 3.43 seconds
+Epoch 0, loss 5.657220562848061, correct 32, time 7.19 seconds<br>
+Epoch 10, loss 7.771813451817472, correct 20, time 3.59 seconds<br>
+Epoch 20, loss 4.390204274814756, correct 40, time 3.49 seconds<br>
+Epoch 30, loss 4.682450189826815, correct 45, time 3.60 seconds<br>
+Epoch 40, loss 2.4488682144433236, correct 48, time 3.49 seconds<br>
+Epoch 50, loss 2.4681724160292617, correct 49, time 3.56 seconds<br>
+Epoch 60, loss 2.4261143832587555, correct 45, time 3.70 seconds<br>
+Epoch 70, loss 1.7713401043514434, correct 50, time 3.59 seconds<br>
+Epoch 80, loss 1.603895997609591, correct 49, time 3.64 seconds<br>
+Epoch 90, loss 1.5644928653124834, correct 47, time 3.50 seconds<br>
+Epoch 100, loss 2.75301124400299, correct 48, time 3.59 seconds<br>
+Epoch 110, loss 1.539822924297964, correct 50, time 3.68 seconds<br>
+Epoch 120, loss 1.2809096437610408, correct 49, time 3.61 seconds<br>
+Epoch 130, loss 1.022715524899043, correct 50, time 3.56 seconds<br>
+Epoch 140, loss 1.5698478627537908, correct 49, time 3.45 seconds<br>
+Epoch 150, loss 0.4358144683444658, correct 50, time 3.51 seconds<br>
+Epoch 160, loss 0.9595922649696866, correct 50, time 3.46 seconds<br>
+Epoch 170, loss 0.5860427930078508, correct 50, time 3.60 seconds<br>
+Epoch 180, loss 0.38918018419997474, correct 49, time 3.44 seconds<br>
+Epoch 190, loss 0.45877751476919487, correct 50, time 3.52 seconds<br>
+Epoch 200, loss 1.3648233947085153, correct 50, time 3.61 seconds<br>
+Epoch 210, loss 0.029750519370476115, correct 49, time 3.54 seconds<br>
+Epoch 220, loss 0.38641139104088107, correct 49, time 3.64 seconds<br>
+Epoch 230, loss 0.613503799054451, correct 50, time 3.69 seconds<br>
+Epoch 240, loss 0.3152896433041337, correct 50, time 3.50 seconds<br>
+Epoch 250, loss 0.7234473277027575, correct 50, time 3.59 seconds<br>
+Epoch 260, loss 0.38205670887584506, correct 50, time 3.62 seconds<br>
+Epoch 270, loss 0.676702144328842, correct 50, time 3.51 seconds<br>
+Epoch 280, loss 0.18440861828851024, correct 50, time 3.61 seconds<br>
+Epoch 290, loss 0.7078128883650542, correct 50, time 3.66 seconds<br>
+Epoch 300, loss 0.051181631038723395, correct 50, time 3.59 seconds<br>
+Epoch 310, loss 0.5098656692403769, correct 50, time 3.49 seconds<br>
+Epoch 320, loss 0.3779500599304156, correct 50, time 3.57 seconds<br>
+Epoch 330, loss 0.069764283073878, correct 50, time 3.49 seconds<br>
+Epoch 340, loss 0.45750112034239725, correct 50, time 3.55 seconds<br>
+Epoch 350, loss 0.3478083485810791, correct 50, time 3.55 seconds<br>
+Epoch 360, loss 0.18735739466198425, correct 50, time 3.52 seconds<br>
+Epoch 370, loss 0.4813328613380132, correct 50, time 3.61 seconds<br>
+Epoch 380, loss 0.2176243847627412, correct 50, time 3.52 seconds<br>
+Epoch 390, loss 0.43082906293148514, correct 50, time 3.53 seconds<br>
+Epoch 400, loss 0.08128474561533073, correct 50, time 3.56 seconds<br>
+Epoch 410, loss 0.0765732570551384, correct 50, time 3.60 seconds<br>
+Epoch 420, loss 0.527890284104207, correct 50, time 3.54 seconds<br>
+Epoch 430, loss 0.08984507579522029, correct 50, time 3.55 seconds<br>
+Epoch 440, loss 0.5046593678901514, correct 50, time 3.64 seconds<br>
+Epoch 450, loss 0.04832135654756442, correct 50, time 3.67 seconds<br>
+Epoch 460, loss 0.34876685944253306, correct 50, time 3.56 seconds<br>
+Epoch 470, loss 0.3345301204433415, correct 50, time 3.67 seconds<br>
+Epoch 480, loss 0.0892665537223157, correct 50, time 3.67 seconds<br>
+Epoch 490, loss 0.058419291457314515, correct 50, time 3.64 seconds<br>
 
 backend: cpu, dataset: xor, hidden: 100, rate: 0.05, points: 50 <br>
-Epoch 0, loss 6.419373459460569, correct 27, time 32.09 seconds
-Epoch 10, loss 6.96875208904579, correct 42, time 0.11 seconds
-Epoch 20, loss 2.8649128518784948, correct 45, time 0.11 seconds
-Epoch 30, loss 3.550069376631923, correct 44, time 0.15 seconds
-Epoch 40, loss 3.5270420886898934, correct 46, time 0.11 seconds
-Epoch 50, loss 1.4851711271250518, correct 46, time 0.15 seconds
-Epoch 60, loss 5.155502500650663, correct 44, time 0.18 seconds
-Epoch 70, loss 3.5449007590415262, correct 46, time 0.13 seconds
-Epoch 80, loss 2.665217641898387, correct 46, time 0.16 seconds
-Epoch 90, loss 1.8992136017299808, correct 47, time 0.14 seconds
-Epoch 100, loss 1.304903268343776, correct 46, time 0.12 seconds
-Epoch 110, loss 1.7048108392893226, correct 47, time 0.13 seconds
-Epoch 120, loss 1.7524713135351644, correct 47, time 0.13 seconds
-Epoch 130, loss 0.7800397254325747, correct 47, time 0.14 seconds
-Epoch 140, loss 1.3942308970284822, correct 48, time 0.16 seconds
-Epoch 150, loss 1.2982502268270872, correct 47, time 0.16 seconds
-Epoch 160, loss 2.1938609893261294, correct 47, time 0.15 seconds
-Epoch 170, loss 2.0435174243687046, correct 49, time 0.15 seconds
-Epoch 180, loss 2.0413721360855894, correct 47, time 0.15 seconds
-Epoch 190, loss 0.5956757905091553, correct 46, time 0.11 seconds
-Epoch 200, loss 0.36561658763707117, correct 50, time 0.12 seconds
-Epoch 210, loss 0.8991228722968455, correct 50, time 0.12 seconds
-Epoch 220, loss 1.7723949286574074, correct 50, time 0.13 seconds
-Epoch 230, loss 0.29513737368708715, correct 48, time 0.11 seconds
-Epoch 240, loss 1.4623761056995532, correct 50, time 0.15 seconds
-Epoch 250, loss 0.8397449821010389, correct 48, time 0.15 seconds
-Epoch 260, loss 2.6216743801285287, correct 46, time 0.12 seconds
-Epoch 270, loss 1.184200650942846, correct 50, time 0.11 seconds
-Epoch 280, loss 1.6473918764442097, correct 49, time 0.11 seconds
-Epoch 290, loss 0.8798826080569603, correct 50, time 0.12 seconds
-Epoch 300, loss 2.5755984258730074, correct 48, time 0.11 seconds
-Epoch 310, loss 1.2145702502093394, correct 50, time 0.11 seconds
-Epoch 320, loss 0.6204167470151246, correct 50, time 0.14 seconds
-Epoch 330, loss 0.7355583584759526, correct 49, time 0.27 seconds
-Epoch 340, loss 0.868971228440603, correct 50, time 0.19 seconds
-Epoch 350, loss 0.8815149351708758, correct 50, time 0.18 seconds
-Epoch 360, loss 1.2464426577660854, correct 50, time 0.19 seconds
-Epoch 370, loss 0.6491648972716044, correct 50, time 0.19 seconds
-Epoch 380, loss 0.11424263970568796, correct 50, time 0.31 seconds
-Epoch 390, loss 0.14650772760751887, correct 49, time 0.19 seconds
-Epoch 400, loss 0.8899271349923312, correct 50, time 0.21 seconds
-Epoch 410, loss 1.4237794193256832, correct 49, time 0.19 seconds
-Epoch 420, loss 0.03991044124805683, correct 50, time 0.20 seconds
-Epoch 430, loss 0.55792539173454, correct 50, time 0.15 seconds
-Epoch 440, loss 0.3313704762488577, correct 50, time 0.17 seconds
-Epoch 450, loss 0.6332956089620122, correct 50, time 0.14 seconds
-Epoch 460, loss 0.8425150715231002, correct 50, time 0.20 seconds
-Epoch 470, loss 1.2688608887803634, correct 50, time 0.14 seconds
-Epoch 480, loss 0.8351903102009907, correct 50, time 0.14 seconds
-Epoch 490, loss 0.04955592718754653, correct 50, time 0.14 seconds
+Epoch 0, loss 6.419373459460569, correct 27, time 32.09 seconds <br>
+Epoch 10, loss 6.96875208904579, correct 42, time 0.11 seconds <br>
+Epoch 20, loss 2.8649128518784948, correct 45, time 0.11 seconds <br>
+Epoch 30, loss 3.550069376631923, correct 44, time 0.15 seconds <br>
+Epoch 40, loss 3.5270420886898934, correct 46, time 0.11 seconds <br>
+Epoch 50, loss 1.4851711271250518, correct 46, time 0.15 seconds <br>
+Epoch 60, loss 5.155502500650663, correct 44, time 0.18 seconds <br>
+Epoch 70, loss 3.5449007590415262, correct 46, time 0.13 seconds <br>
+Epoch 80, loss 2.665217641898387, correct 46, time 0.16 seconds <br>
+Epoch 90, loss 1.8992136017299808, correct 47, time 0.14 seconds <br>
+Epoch 100, loss 1.304903268343776, correct 46, time 0.12 seconds <br>
+Epoch 110, loss 1.7048108392893226, correct 47, time 0.13 seconds <br>
+Epoch 120, loss 1.7524713135351644, correct 47, time 0.13 seconds <br>
+Epoch 130, loss 0.7800397254325747, correct 47, time 0.14 seconds <br>
+Epoch 140, loss 1.3942308970284822, correct 48, time 0.16 seconds <br>
+Epoch 150, loss 1.2982502268270872, correct 47, time 0.16 seconds <br>
+Epoch 160, loss 2.1938609893261294, correct 47, time 0.15 seconds <br>
+Epoch 170, loss 2.0435174243687046, correct 49, time 0.15 seconds <br>
+Epoch 180, loss 2.0413721360855894, correct 47, time 0.15 seconds <br>
+Epoch 190, loss 0.5956757905091553, correct 46, time 0.11 seconds <br>
+Epoch 200, loss 0.36561658763707117, correct 50, time 0.12 seconds <br>
+Epoch 210, loss 0.8991228722968455, correct 50, time 0.12 seconds <br>
+Epoch 220, loss 1.7723949286574074, correct 50, time 0.13 seconds <br>
+Epoch 230, loss 0.29513737368708715, correct 48, time 0.11 seconds <br>
+Epoch 240, loss 1.4623761056995532, correct 50, time 0.15 seconds <br>
+Epoch 250, loss 0.8397449821010389, correct 48, time 0.15 seconds <br>
+Epoch 260, loss 2.6216743801285287, correct 46, time 0.12 seconds <br>
+Epoch 270, loss 1.184200650942846, correct 50, time 0.11 seconds <br>
+Epoch 280, loss 1.6473918764442097, correct 49, time 0.11 seconds <br>
+Epoch 290, loss 0.8798826080569603, correct 50, time 0.12 seconds <br>
+Epoch 300, loss 2.5755984258730074, correct 48, time 0.11 seconds <br>
+Epoch 310, loss 1.2145702502093394, correct 50, time 0.11 seconds <br>
+Epoch 320, loss 0.6204167470151246, correct 50, time 0.14 seconds <br>
+Epoch 330, loss 0.7355583584759526, correct 49, time 0.27 seconds <br>
+Epoch 340, loss 0.868971228440603, correct 50, time 0.19 seconds <br>
+Epoch 350, loss 0.8815149351708758, correct 50, time 0.18 seconds <br>
+Epoch 360, loss 1.2464426577660854, correct 50, time 0.19 seconds <br>
+Epoch 370, loss 0.6491648972716044, correct 50, time 0.19 seconds <br>
+Epoch 380, loss 0.11424263970568796, correct 50, time 0.31 seconds <br>
+Epoch 390, loss 0.14650772760751887, correct 49, time 0.19 seconds <br>
+Epoch 400, loss 0.8899271349923312, correct 50, time 0.21 seconds <br>
+Epoch 410, loss 1.4237794193256832, correct 49, time 0.19 seconds <br>
+Epoch 420, loss 0.03991044124805683, correct 50, time 0.20 seconds <br>
+Epoch 430, loss 0.55792539173454, correct 50, time 0.15 seconds <br>
+Epoch 440, loss 0.3313704762488577, correct 50, time 0.17 seconds <br>
+Epoch 450, loss 0.6332956089620122, correct 50, time 0.14 seconds <br>
+Epoch 460, loss 0.8425150715231002, correct 50, time 0.20 seconds <br>
+Epoch 470, loss 1.2688608887803634, correct 50, time 0.14 seconds <br>
+Epoch 480, loss 0.8351903102009907, correct 50, time 0.14 seconds <br>
+Epoch 490, loss 0.04955592718754653, correct 50, time 0.14 seconds <br>
 
-backend: gpu, dataset: xor, hidden: 100, rate: 0.05, points: 50 <nr>
-Epoch 0, loss 7.476310475180543, correct 30, time 7.16 seconds
-Epoch 10, loss 4.727476276456226, correct 43, time 3.23 seconds
-Epoch 20, loss 4.413027300862569, correct 41, time 3.22 seconds
-Epoch 30, loss 3.1480314596256616, correct 44, time 3.21 seconds
-Epoch 40, loss 2.6570283062155857, correct 48, time 3.45 seconds
-Epoch 50, loss 4.438296014371257, correct 48, time 3.44 seconds
-Epoch 60, loss 1.6032287139331776, correct 48, time 3.39 seconds
-Epoch 70, loss 1.4258468236981876, correct 47, time 3.16 seconds
-Epoch 80, loss 1.288726491884274, correct 47, time 4.18 seconds
-Epoch 90, loss 3.2911100403264753, correct 47, time 3.98 seconds
-Epoch 100, loss 0.7621658342723722, correct 47, time 3.96 seconds
-Epoch 110, loss 1.571021897498789, correct 48, time 4.22 seconds
-Epoch 120, loss 0.6844930235280375, correct 49, time 3.69 seconds
-Epoch 130, loss 1.8801416915272575, correct 50, time 4.02 seconds
-Epoch 140, loss 1.1411761922931292, correct 50, time 3.38 seconds
-Epoch 150, loss 2.4027336608925967, correct 47, time 4.15 seconds
-Epoch 160, loss 1.7413176130089363, correct 47, time 2.98 seconds
-Epoch 170, loss 1.0501054598131099, correct 50, time 3.60 seconds
-Epoch 180, loss 1.0586521114711107, correct 50, time 4.06 seconds
-Epoch 190, loss 0.8751752813658673, correct 49, time 3.57 seconds
-Epoch 200, loss 1.0466373827578237, correct 49, time 3.62 seconds
-Epoch 210, loss 0.5148694853179019, correct 48, time 3.87 seconds
-Epoch 220, loss 0.5572465701582537, correct 50, time 3.53 seconds
-Epoch 230, loss 1.7344150305517751, correct 50, time 3.58 seconds
-Epoch 240, loss 0.522941122367351, correct 50, time 3.77 seconds
-Epoch 250, loss 0.9856003388654584, correct 50, time 3.91 seconds
-Epoch 260, loss 0.5834094350937776, correct 49, time 3.79 seconds
-Epoch 270, loss 0.5554515785431535, correct 50, time 3.52 seconds
-Epoch 280, loss 1.1232493392709912, correct 50, time 3.45 seconds
-Epoch 290, loss 0.22963831982288518, correct 50, time 3.71 seconds
-Epoch 300, loss 0.6580740063003754, correct 49, time 3.91 seconds
-Epoch 310, loss 1.1141547967286414, correct 50, time 4.03 seconds
-Epoch 320, loss 0.29045352192316587, correct 50, time 3.95 seconds
-Epoch 330, loss 0.466213687759308, correct 50, time 3.94 seconds
-Epoch 340, loss 0.29610189286700955, correct 50, time 3.71 seconds
-Epoch 350, loss 0.5271501601121608, correct 50, time 3.60 seconds
-Epoch 360, loss 0.4457292973818425, correct 50, time 4.08 seconds
-Epoch 370, loss 1.0870483786650893, correct 50, time 3.77 seconds
-Epoch 380, loss 0.1411549803445361, correct 50, time 3.57 seconds
-Epoch 390, loss 0.4501398033716228, correct 50, time 3.65 seconds
-Epoch 400, loss 0.43881592090913646, correct 50, time 3.55 seconds
-Epoch 410, loss 0.2523778506958985, correct 50, time 3.31 seconds
-Epoch 420, loss 0.6947465871763814, correct 50, time 3.44 seconds
-Epoch 430, loss 0.13551512946304572, correct 50, time 4.09 seconds
-Epoch 440, loss 0.15171721673933064, correct 50, time 3.99 seconds
-Epoch 450, loss 0.20444077374456135, correct 50, time 3.62 seconds
-Epoch 460, loss 0.05864154473204009, correct 50, time 3.18 seconds
-Epoch 470, loss 0.14762431192793155, correct 50, time 4.14 seconds
-Epoch 480, loss 0.5213497853652733, correct 50, time 4.17 seconds
-Epoch 490, loss 0.2111923492298178, correct 50, time 3.89 seconds
+backend: gpu, dataset: xor, hidden: 100, rate: 0.05, points: 50 <br>
+Epoch 0, loss 7.476310475180543, correct 30, time 7.16 seconds <br>
+Epoch 10, loss 4.727476276456226, correct 43, time 3.23 seconds <br>
+Epoch 20, loss 4.413027300862569, correct 41, time 3.22 seconds <br>
+Epoch 30, loss 3.1480314596256616, correct 44, time 3.21 seconds <br>
+Epoch 40, loss 2.6570283062155857, correct 48, time 3.45 seconds <br>
+Epoch 50, loss 4.438296014371257, correct 48, time 3.44 seconds <br>
+Epoch 60, loss 1.6032287139331776, correct 48, time 3.39 seconds <br>
+Epoch 70, loss 1.4258468236981876, correct 47, time 3.16 seconds <br>
+Epoch 80, loss 1.288726491884274, correct 47, time 4.18 seconds <br>
+Epoch 90, loss 3.2911100403264753, correct 47, time 3.98 seconds <br>
+Epoch 100, loss 0.7621658342723722, correct 47, time 3.96 seconds <br>
+Epoch 110, loss 1.571021897498789, correct 48, time 4.22 seconds <br>
+Epoch 120, loss 0.6844930235280375, correct 49, time 3.69 seconds <br>
+Epoch 130, loss 1.8801416915272575, correct 50, time 4.02 seconds <br>
+Epoch 140, loss 1.1411761922931292, correct 50, time 3.38 seconds <br>
+Epoch 150, loss 2.4027336608925967, correct 47, time 4.15 seconds <br>
+Epoch 160, loss 1.7413176130089363, correct 47, time 2.98 seconds <br>
+Epoch 170, loss 1.0501054598131099, correct 50, time 3.60 seconds <br>
+Epoch 180, loss 1.0586521114711107, correct 50, time 4.06 seconds <br>
+Epoch 190, loss 0.8751752813658673, correct 49, time 3.57 seconds <br>
+Epoch 200, loss 1.0466373827578237, correct 49, time 3.62 seconds <br>
+Epoch 210, loss 0.41247357859702544, correct 50, time 4.36 seconds <br>
+Epoch 220, loss 0.5331637899299921, correct 50, time 3.60 seconds <br>
+Epoch 230, loss 0.8882712673699491, correct 50, time 4.25 seconds <br>
+Epoch 240, loss 0.2177648893900701, correct 50, time 4.47 seconds <br>
+Epoch 250, loss 1.2502294932791236, correct 50, time 4.27 seconds <br>
+Epoch 260, loss 0.5933495121581995, correct 49, time 4.11 seconds <br>
+Epoch 270, loss 0.20401969436413965, correct 50, time 4.23 seconds <br>
+Epoch 280, loss 1.0610094414786648, correct 50, time 3.73 seconds <br>
+Epoch 290, loss 1.3771229602442395, correct 50, time 4.23 seconds <br>
+Epoch 300, loss 0.1131322885396267, correct 50, time 4.23 seconds <br>
+Epoch 310, loss 0.013705423278452268, correct 50, time 3.81 seconds <br>
+Epoch 320, loss 0.5220105978695037, correct 50, time 3.96 seconds <br>
+Epoch 330, loss 0.7794053372675876, correct 50, time 3.77 seconds <br>
+Epoch 340, loss 1.6892820268932203, correct 50, time 4.31 seconds <br>
+Epoch 350, loss 0.7487402276317382, correct 50, time 3.92 seconds <br>
+Epoch 360, loss 1.0347667222290767, correct 50, time 3.83 seconds <br>
+Epoch 370, loss 0.9314431572127492, correct 50, time 4.06 seconds <br>
+Epoch 380, loss 0.11005200728209993, correct 50, time 4.27 seconds <br>
+Epoch 390, loss 0.5068972420186249, correct 50, time 3.91 seconds <br>
+Epoch 400, loss 0.2952802977863156, correct 50, time 3.99 seconds <br>
+Epoch 410, loss 0.6045660033875919, correct 50, time 3.82 seconds <br>
+Epoch 420, loss 0.3167302288069519, correct 50, time 4.22 seconds <br>
+Epoch 430, loss 1.0609286614628063, correct 50, time 4.25 seconds <br>
+Epoch 440, loss 1.0615912674623067, correct 50, time 3.73 seconds <br>
+Epoch 450, loss 0.36235853028028865, correct 50, time 4.10 seconds <br>
+Epoch 460, loss 0.8262942080525722, correct 50, time 3.89 seconds <br>
+Epoch 470, loss 0.5288081545307892, correct 50, time 3.97 seconds <br>
+Epoch 480, loss 1.159035481274209, correct 50, time 4.21 seconds <br>
+Epoch 490, loss 1.064632122438207, correct 50, time 3.88 seconds <br>
+
 
 ## Large Model
 backend: cpu, dataset: simple, hidden: 250, rate: 0.05, points: 50<br>
-Epoch 0, loss 0.7606393531559354, correct 49, time 35.80 seconds
-Epoch 10, loss 0.25941216342984647, correct 50, time 0.53 seconds
-Epoch 20, loss 0.479705376807187, correct 48, time 0.41 seconds
-Epoch 30, loss 0.24701770173009144, correct 50, time 0.40 seconds
-Epoch 40, loss 0.29156875549110806, correct 48, time 0.41 seconds
-Epoch 50, loss 0.015396037252339529, correct 50, time 0.42 seconds
-Epoch 60, loss 0.13417694547685458, correct 50, time 0.42 seconds
-Epoch 70, loss 0.22460687213152644, correct 50, time 0.49 seconds
-Epoch 80, loss 0.0023624080640160397, correct 50, time 0.59 seconds
-Epoch 90, loss 0.5129697161731503, correct 50, time 0.53 seconds
-Epoch 100, loss 0.3444883567458985, correct 50, time 0.54 seconds
-Epoch 110, loss 0.10833108221723622, correct 50, time 0.64 seconds
-Epoch 120, loss 0.040486322647658855, correct 50, time 0.55 seconds
-Epoch 130, loss 0.35612188517581767, correct 50, time 0.53 seconds
-Epoch 140, loss 0.3062603012960327, correct 50, time 0.58 seconds
-Epoch 150, loss 0.19370745330178601, correct 50, time 0.50 seconds
-Epoch 160, loss 0.13267991882144273, correct 50, time 0.44 seconds
-Epoch 170, loss 0.17216288936913424, correct 50, time 0.42 seconds
-Epoch 180, loss 0.01887248989983529, correct 50, time 0.46 seconds
-Epoch 190, loss 0.27022015862506515, correct 50, time 0.46 seconds
-Epoch 200, loss 0.022726344496494036, correct 50, time 0.40 seconds
-Epoch 210, loss 0.22376940465980433, correct 50, time 0.42 seconds
-Epoch 220, loss 0.002833265926793888, correct 50, time 0.46 seconds
-Epoch 230, loss 0.13874102905349997, correct 50, time 0.54 seconds
-Epoch 240, loss 0.00033391868919162797, correct 50, time 0.52 seconds
-Epoch 250, loss 0.24121215958688833, correct 50, time 0.52 seconds
-Epoch 260, loss 0.008829711518609925, correct 50, time 0.57 seconds
-Epoch 270, loss 0.05880268486726747, correct 50, time 0.59 seconds
-Epoch 280, loss 0.12900200224119707, correct 50, time 0.58 seconds
-Epoch 290, loss 0.13362182892094088, correct 50, time 0.53 seconds
-Epoch 300, loss 0.10495298734942801, correct 50, time 0.48 seconds
-Epoch 310, loss 0.30206491752603387, correct 50, time 0.51 seconds
-Epoch 320, loss 0.0005357039948453944, correct 50, time 0.45 seconds
-Epoch 330, loss 0.07813700592831253, correct 50, time 0.44 seconds
-Epoch 340, loss 0.13807468597441142, correct 50, time 0.43 seconds
-Epoch 350, loss 0.2549917607494568, correct 50, time 0.43 seconds
-Epoch 360, loss 0.004676846760506378, correct 50, time 0.43 seconds
-Epoch 370, loss 0.005057016980271147, correct 50, time 0.46 seconds
-Epoch 380, loss 0.06302449143667904, correct 50, time 0.60 seconds
-Epoch 390, loss 0.10731689785920978, correct 50, time 0.49 seconds
-Epoch 400, loss 0.04661558585274219, correct 50, time 0.54 seconds
-Epoch 410, loss 0.21511055621319977, correct 50, time 0.56 seconds
-Epoch 420, loss 0.0684631396731972, correct 50, time 0.50 seconds
-Epoch 430, loss 0.003447190149620545, correct 50, time 0.45 seconds
-Epoch 440, loss 0.03425895657445207, correct 50, time 0.55 seconds
-Epoch 450, loss 0.09722884211891007, correct 50, time 0.44 seconds
-Epoch 460, loss 0.000541937981507568, correct 50, time 0.45 seconds
-Epoch 470, loss 9.586667429816694e-05, correct 50, time 0.44 seconds
-Epoch 480, loss -4.645286439911455e-06, correct 50, time 0.41 seconds
-Epoch 490, loss 0.14047485034656124, correct 50, time 0.40 seconds
+Epoch 0, loss 0.7606393531559354, correct 49, time 35.80 seconds<br>
+Epoch 10, loss 0.25941216342984647, correct 50, time 0.53 seconds<br>
+Epoch 20, loss 0.479705376807187, correct 48, time 0.41 seconds<br>
+Epoch 30, loss 0.24701770173009144, correct 50, time 0.40 seconds<br>
+Epoch 40, loss 0.29156875549110806, correct 48, time 0.41 seconds<br>
+Epoch 50, loss 0.015396037252339529, correct 50, time 0.42 seconds<br>
+Epoch 60, loss 0.13417694547685458, correct 50, time 0.42 seconds<br>
+Epoch 70, loss 0.22460687213152644, correct 50, time 0.49 seconds<br>
+Epoch 80, loss 0.0023624080640160397, correct 50, time 0.59 seconds<br>
+Epoch 90, loss 0.5129697161731503, correct 50, time 0.53 seconds<br>
+Epoch 100, loss 0.3444883567458985, correct 50, time 0.54 seconds<br>
+Epoch 110, loss 0.10833108221723622, correct 50, time 0.64 seconds<br>
+Epoch 120, loss 0.040486322647658855, correct 50, time 0.55 seconds<br>
+Epoch 130, loss 0.35612188517581767, correct 50, time 0.53 seconds<br>
+Epoch 140, loss 0.3062603012960327, correct 50, time 0.58 seconds<br>
+Epoch 150, loss 0.19370745330178601, correct 50, time 0.50 seconds<br>
+Epoch 160, loss 0.13267991882144273, correct 50, time 0.44 seconds<br>
+Epoch 170, loss 0.17216288936913424, correct 50, time 0.42 seconds<br>
+Epoch 180, loss 0.01887248989983529, correct 50, time 0.46 seconds<br>
+Epoch 190, loss 0.27022015862506515, correct 50, time 0.46 seconds<br>
+Epoch 200, loss 0.022726344496494036, correct 50, time 0.40 seconds<br>
+Epoch 210, loss 0.22376940465980433, correct 50, time 0.42 seconds<br>
+Epoch 220, loss 0.002833265926793888, correct 50, time 0.46 seconds<br>
+Epoch 230, loss 0.13874102905349997, correct 50, time 0.54 seconds<br>
+Epoch 240, loss 0.00033391868919162797, correct 50, time 0.52 seconds<br>
+Epoch 250, loss 0.24121215958688833, correct 50, time 0.52 seconds<br>
+Epoch 260, loss 0.008829711518609925, correct 50, time 0.57 seconds<br>
+Epoch 270, loss 0.05880268486726747, correct 50, time 0.59 seconds<br>
+Epoch 280, loss 0.12900200224119707, correct 50, time 0.58 seconds<br>
+Epoch 290, loss 0.13362182892094088, correct 50, time 0.53 seconds<br>
+Epoch 300, loss 0.10495298734942801, correct 50, time 0.48 seconds<br>
+Epoch 310, loss 0.30206491752603387, correct 50, time 0.51 seconds<br>
+Epoch 320, loss 0.0005357039948453944, correct 50, time 0.45 seconds<br>
+Epoch 330, loss 0.07813700592831253, correct 50, time 0.44 seconds<br>
+Epoch 340, loss 0.13807468597441142, correct 50, time 0.43 seconds<br>
+Epoch 350, loss 0.2549917607494568, correct 50, time 0.43 seconds<br>
+Epoch 360, loss 0.004676846760506378, correct 50, time 0.43 seconds<br>
+Epoch 370, loss 0.005057016980271147, correct 50, time 0.46 seconds<br>
+Epoch 380, loss 0.06302449143667904, correct 50, time 0.60 seconds<br>
+Epoch 390, loss 0.10731689785920978, correct 50, time 0.49 seconds<br>
+Epoch 400, loss 0.04661558585274219, correct 50, time 0.54 seconds<br>
+Epoch 410, loss 0.21511055621319977, correct 50, time 0.56 seconds<br>
+Epoch 420, loss 0.0684631396731972, correct 50, time 0.50 seconds<br>
+Epoch 430, loss 0.003447190149620545, correct 50, time 0.45 seconds<br>
+Epoch 440, loss 0.03425895657445207, correct 50, time 0.55 seconds<br>
+Epoch 450, loss 0.09722884211891007, correct 50, time 0.44 seconds<br>
+Epoch 460, loss 0.000541937981507568, correct 50, time 0.45 seconds<br>
+Epoch 470, loss 9.586667429816694e-05, correct 50, time 0.44 seconds<br>
+Epoch 480, loss -4.645286439911455e-06, correct 50, time 0.41 seconds<br>
+Epoch 490, loss 0.14047485034656124, correct 50, time 0.40 seconds<br>
 
-backend: gpu, dataset: simple, hidden: 250, rate: 0.05, points: 50 <br>
-Epoch 0, loss 8.949765890057147, correct 44, time 7.30 seconds
-Epoch 10, loss 1.1780632152832902, correct 46, time 3.68 seconds
-Epoch 20, loss 1.193418335251185, correct 48, time 7.53 seconds
-Epoch 30, loss 0.6611865574924014, correct 50, time 7.64 seconds
-Epoch 40, loss 1.1058636676993872, correct 48, time 7.68 seconds
-Epoch 50, loss 1.4334337108619828, correct 48, time 7.68 seconds
-Epoch 60, loss 0.38200889250764447, correct 50, time 8.24 seconds
-Epoch 70, loss 0.41254783743161483, correct 50, time 8.72 seconds
-Epoch 80, loss 0.45307135126679776, correct 50, time 7.74 seconds
-Epoch 90, loss 0.2938271411180099, correct 50, time 8.53 seconds
-Epoch 100, loss 0.4660227088237348, correct 50, time 11.32 seconds
-Epoch 110, loss 0.174378309327718, correct 50, time 8.70 seconds
-Epoch 120, loss 0.04372808799052591, correct 50, time 7.45 seconds
-Epoch 130, loss 0.24977199911236714, correct 50, time 9.87 seconds
-Epoch 140, loss 0.14940814870846883, correct 50, time 11.10 seconds
-Epoch 150, loss 0.15723165075658216, correct 50, time 8.60 seconds
-Epoch 160, loss 0.2396529567130677, correct 50, time 7.83 seconds
-Epoch 170, loss 0.39917608407227373, correct 50, time 7.59 seconds
-Epoch 180, loss 0.1736258876511395, correct 50, time 8.55 seconds
-Epoch 190, loss 0.009911098870725533, correct 50, time 8.54 seconds
-Epoch 200, loss 0.14869462847652706, correct 50, time 7.91 seconds
-Epoch 210, loss 0.052436858503119375, correct 50, time 10.12 seconds
-Epoch 220, loss 0.038385657114081415, correct 50, time 8.13 seconds
-Epoch 230, loss 0.18380601123068963, correct 50, time 7.90 seconds
-Epoch 240, loss 0.006375664141886459, correct 50, time 9.28 seconds
-Epoch 250, loss 0.06424960574778933, correct 50, time 8.17 seconds
-Epoch 260, loss 0.12280402621920568, correct 50, time 7.67 seconds
-Epoch 270, loss 0.0005924639157333649, correct 50, time 8.31 seconds
-Epoch 280, loss 0.07583529258635491, correct 50, time 8.00 seconds
-Epoch 290, loss 0.00899937371260089, correct 50, time 8.80 seconds
-Epoch 300, loss 0.15960871526697817, correct 50, time 9.55 seconds
-Epoch 310, loss 0.08227870855260512, correct 50, time 7.93 seconds
-Epoch 320, loss 0.051363096728270656, correct 50, time 9.00 seconds
-Epoch 330, loss 0.09642737022999776, correct 50, time 7.84 seconds
-Epoch 340, loss 0.059512855315128996, correct 50, time 8.07 seconds
-Epoch 350, loss 0.13638312400410646, correct 50, time 7.31 seconds
-Epoch 360, loss 0.011799600290026626, correct 50, time 7.39 seconds
-Epoch 370, loss 0.053246553912188084, correct 50, time 7.84 seconds
-Epoch 380, loss 0.059918990807807854, correct 50, time 7.78 seconds
-Epoch 390, loss 0.051330225943388826, correct 50, time 7.62 seconds
-Epoch 400, loss 0.047674179686858276, correct 50, time 7.36 seconds
-Epoch 410, loss 0.053369120534026634, correct 50, time 7.93 seconds
-Epoch 420, loss 0.029081420695874428, correct 50, time 7.88 seconds
-Epoch 430, loss 0.1402748098568458, correct 50, time 7.80 seconds
-Epoch 440, loss 0.04720081160605938, correct 50, time 8.26 seconds
-Epoch 450, loss 0.01216883762383722, correct 50, time 8.45 seconds
-Epoch 460, loss 0.029793759562434213, correct 50, time 7.66 seconds
-Epoch 470, loss 0.03399455811805155, correct 50, time 7.80 seconds
-Epoch 480, loss 0.01759348859451171, correct 50, time 8.45 seconds
-Epoch 490, loss 0.09285372876842674, correct 50, time 7.58 seconds
+backend: gpu, dataset: simple, hidden: 250, rate: 0.05, points: 50<br>
+Epoch 0, loss 8.949765890057147, correct 44, time 7.30 seconds<br>
+Epoch 10, loss 1.1780632152832902, correct 46, time 3.68 seconds<br>
+Epoch 20, loss 1.193418335251185, correct 48, time 7.53 seconds<br>
+Epoch 30, loss 0.6611865574924014, correct 50, time 7.64 seconds<br>
+Epoch 40, loss 1.1058636676993872, correct 48, time 7.68 seconds<br>
+Epoch 50, loss 1.4334337108619828, correct 48, time 7.68 seconds<br>
+Epoch 60, loss 0.38200889250764447, correct 50, time 8.24 seconds<br>
+Epoch 70, loss 0.41254783743161483, correct 50, time 8.72 seconds<br>
+Epoch 80, loss 0.45307135126679776, correct 50, time 7.74 seconds<br>
+Epoch 90, loss 0.2938271411180099, correct 50, time 8.53 seconds<br>
+Epoch 100, loss 0.4660227088237348, correct 50, time 11.32 seconds<br>
+Epoch 110, loss 0.174378309327718, correct 50, time 8.70 seconds<br>
+Epoch 120, loss 0.04372808799052591, correct 50, time 7.45 seconds<br>
+Epoch 130, loss 0.24977199911236714, correct 50, time 9.87 seconds<br>
+Epoch 140, loss 0.14940814870846883, correct 50, time 11.10 seconds<br>
+Epoch 150, loss 0.15723165075658216, correct 50, time 8.60 seconds<br>
+Epoch 160, loss 0.2396529567130677, correct 50, time 7.83 seconds<br>
+Epoch 170, loss 0.39917608407227373, correct 50, time 7.59 seconds<br>
+Epoch 180, loss 0.1736258876511395, correct 50, time 8.55 seconds<br>
+Epoch 190, loss 0.009911098870725533, correct 50, time 8.54 seconds<br>
+Epoch 200, loss 0.14869462847652706, correct 50, time 7.91 seconds<br>
+Epoch 210, loss 0.052436858503119375, correct 50, time 10.12 seconds<br>
+Epoch 220, loss 0.038385657114081415, correct 50, time 8.13 seconds<br>
+Epoch 230, loss 0.3084056258684869, correct 50, time 8.36 seconds<br>
+Epoch 240, loss 0.2094386972957846, correct 50, time 8.87 seconds<br>
+Epoch 250, loss 0.10815639116935303, correct 50, time 7.91 seconds<br>
+Epoch 260, loss 0.054297494635497536, correct 50, time 8.07 seconds<br>
+Epoch 270, loss 0.23661158920503676, correct 50, time 7.87 seconds<br>
+Epoch 280, loss 0.17397329982839102, correct 50, time 7.68 seconds<br>
+Epoch 290, loss 0.2787483843355122, correct 50, time 7.50 seconds<br>
+Epoch 300, loss 0.3723312825995243, correct 50, time 7.78 seconds<br>
+Epoch 310, loss 0.08458010094720228, correct 50, time 7.60 seconds<br>
+Epoch 320, loss 0.1364602541713526, correct 50, time 7.60 seconds<br>
+Epoch 330, loss 0.28439278559626796, correct 50, time 8.24 seconds<br>
+Epoch 340, loss 0.2565198770732753, correct 50, time 7.75 seconds<br>
+Epoch 350, loss 0.20623137747835897, correct 50, time 7.89 seconds<br>
+Epoch 360, loss 0.27685227407380804, correct 50, time 7.76 seconds<br>
+Epoch 370, loss 0.343004522531798, correct 50, time 7.63 seconds<br>
+Epoch 380, loss 0.2904001675575363, correct 50, time 7.50 seconds<br>
+Epoch 390, loss 0.2896541016013516, correct 50, time 7.89 seconds<br>
+Epoch 400, loss 0.3075151855277562, correct 50, time 7.76 seconds<br>
+Epoch 410, loss 0.25183282660167956, correct 50, time 7.82 seconds<br>
+Epoch 420, loss 0.22602011079889645, correct 50, time 7.81 seconds<br>
+Epoch 430, loss 0.1357590995042177, correct 50, time 7.59 seconds<br>
+Epoch 440, loss 0.2984249255152432, correct 50, time 7.72 seconds<br>
+Epoch 450, loss 0.23805690514704085, correct 50, time 7.73 seconds<br>
+Epoch 460, loss 0.056686432035285475, correct 50, time 7.81 seconds<br>
+Epoch 470, loss 0.2171512133835172, correct 50, time 7.80 seconds<br>
+Epoch 480, loss 0.1042472584587428, correct 50, time 7.90 seconds<br>
+Epoch 490, loss 0.1237732953610747, correct 50, time 7.84 seconds<br>
