@@ -210,7 +210,7 @@ No allocation hoisting found<br>
 None<br>
 <br>
 <br>
-        
+
 ## MATRIX MULTIPLY<br>
 <br>
 ================================================================================<br>
@@ -303,7 +303,7 @@ Allocation hoisting:<br>
 No allocation hoisting found<br>
 None<br>
 
-        
+
 # Timing Graph 3.4:<br>
 NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.<br>
   warn(NumbaPerformanceWarning(msg))<br>
