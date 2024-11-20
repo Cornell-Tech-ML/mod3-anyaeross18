@@ -305,24 +305,24 @@ The files that will be synced are:
 # Timing Graph 3.4:<br>
 
 ## Timing summary:<br>
-Size: 64
-    fast: 0.00351
-    gpu: 0.01174
-Size: 128
-    fast: 0.01696
-    gpu: 0.02465
-Size: 256
-    fast: 0.07248
-    gpu: 0.11462
-Size: 512
-    fast: 0.37120
-    gpu: 0.36778
-Size: 1024
-    fast: 3.67718
-    gpu: 1.41245
+        Size: 64
+                fast: 0.00865
+                gpu: 0.01878
+        Size: 128
+                fast: 0.03372
+                gpu: 0.05361
+        Size: 256
+                fast: 0.08739
+                gpu: 0.08597
+        Size: 512
+                fast: 0.44115
+                gpu: 0.38369
+        Size: 1024
+                fast: 3.90508
+                gpu: 1.40690
 
 ## Graph:<br>
-
+![Timing Graph](path/to/your/timing_graph.png)
 
 # 3.5: Training Loss, Accuracy, and Timing<br>
 ## Small Models:<br>
