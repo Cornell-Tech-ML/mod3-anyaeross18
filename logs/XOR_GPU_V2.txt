@@ -1,0 +1,226 @@
+--BACKEND gpu --HIDDEN 100  --RATE 0.05 --DATASET xor
+backend: gpu, dataset: xor, hidden: 100, rate: 0.05
+Using GPUBackend
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cudadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cudadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cudadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+spatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cudadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cudadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cudadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+spatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+y.
+  warn(NumbaPerformanceWarning(msg))
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 32 will likely result in GPU under-utilization due to low occupan
+cy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 32 will likely result in GPU under-utilization due to low occupan
+cy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 32 will likely result in GPU under-utilization due to low occupan
+cy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 100 will likely result in GPU under-utilization due to low occupa
+ncy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 16 will likely result in GPU under-utilization due to low occupan
+cy.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\cu
+dadrv\devicearray.py:888: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from de
+vice.
+  warn(NumbaPerformanceWarning(msg))
+C:\Users\15184\OneDrive\Documents\Machine Learning Engineering\mod3-anyaeross18\.venv\Lib\site-packages\numba\cuda\di
+spatcher.py:536: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupanc
+y.
+  warn(NumbaPerformanceWarning(msg))
+Epoch 0, loss 8.400999671823842, correct 28, time 7.54 seconds
+Epoch 10, loss 6.238089495581589, correct 39, time 3.46 seconds
+Epoch 20, loss 5.493601356615856, correct 44, time 4.20 seconds
+Epoch 30, loss 3.3129356546783004, correct 43, time 3.74 seconds
+Epoch 40, loss 3.0913427250880776, correct 42, time 3.40 seconds
+Epoch 50, loss 3.910145878857543, correct 47, time 4.14 seconds
+Epoch 60, loss 3.0935224988337104, correct 49, time 3.63 seconds
+Epoch 70, loss 2.200142634519935, correct 49, time 3.47 seconds
+Epoch 80, loss 3.076508664330431, correct 49, time 3.61 seconds
+Epoch 90, loss 2.458614859450495, correct 49, time 3.12 seconds
+Epoch 100, loss 2.0874763030589376, correct 47, time 2.76 seconds
+Epoch 110, loss 2.2367652793089516, correct 48, time 3.57 seconds
+Epoch 120, loss 2.1815513581060193, correct 49, time 3.05 seconds
+Epoch 130, loss 0.4856400250062507, correct 49, time 3.16 seconds
+Epoch 140, loss 2.3041921749805017, correct 47, time 2.80 seconds
+Epoch 150, loss 1.3578922161754834, correct 47, time 2.77 seconds
+Epoch 160, loss 1.7787546567195696, correct 49, time 2.69 seconds
+Epoch 170, loss 1.6433045831415278, correct 50, time 2.78 seconds
+Epoch 180, loss 0.7384292401322219, correct 48, time 3.43 seconds
+Epoch 190, loss 0.2895921620546063, correct 48, time 3.36 seconds
+Epoch 200, loss 0.7957119912123181, correct 49, time 3.67 seconds
+Epoch 210, loss 2.398829480118009, correct 48, time 3.31 seconds
+Epoch 220, loss 0.7452094295853835, correct 50, time 3.34 seconds
+Epoch 230, loss 1.1785653363482447, correct 49, time 3.52 seconds
+Epoch 240, loss 0.2739185234987249, correct 48, time 4.98 seconds
+Epoch 250, loss 0.480127963538925, correct 50, time 3.34 seconds
+Epoch 260, loss 1.97379041170455, correct 49, time 2.54 seconds
+Epoch 270, loss 0.8427520867994818, correct 50, time 2.91 seconds
+Epoch 280, loss 1.019178335767606, correct 49, time 3.91 seconds
+Epoch 290, loss 0.767968555005389, correct 49, time 3.31 seconds
+Epoch 300, loss 0.4958677483032383, correct 50, time 3.17 seconds
+Epoch 310, loss 0.9859767678648323, correct 50, time 3.41 seconds
+Epoch 320, loss 0.12613414020305047, correct 50, time 2.84 seconds
+Epoch 330, loss 0.267681169451424, correct 50, time 3.29 seconds
+Epoch 340, loss 0.4615451207614849, correct 50, time 3.28 seconds
+Epoch 350, loss 0.5735119043790063, correct 50, time 3.22 seconds
+Epoch 360, loss 0.7415450524963687, correct 50, time 2.52 seconds
+Epoch 370, loss 0.13495837587270565, correct 50, time 8.07 seconds
+Epoch 380, loss 1.2210565810107363, correct 49, time 8.52 seconds
+Epoch 390, loss 0.07444699799693044, correct 50, time 8.76 seconds
+Epoch 400, loss 1.4094532139116334, correct 49, time 8.45 seconds
+Epoch 410, loss 0.2444832635002311, correct 50, time 8.44 seconds
+Epoch 420, loss 0.6893875024874724, correct 50, time 8.53 seconds
+Epoch 430, loss 0.3231152166389738, correct 50, time 6.95 seconds
+Epoch 440, loss 0.6694625144306565, correct 50, time 8.49 seconds
+Epoch 450, loss 0.48442247440512454, correct 50, time 8.25 seconds
+Epoch 460, loss 0.29246291673507496, correct 50, time 8.11 seconds
+Epoch 470, loss 0.7140823156503087, correct 50, time 8.40 seconds
+Epoch 480, loss 1.165072351368301, correct 49, time 7.98 seconds
+Epoch 490, loss 0.32508044170799105, correct 50, time 7.65 seconds
