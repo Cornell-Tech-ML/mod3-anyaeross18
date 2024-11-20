@@ -322,7 +322,7 @@ The files that will be synced are:
                 gpu: 1.40690
 
 ## Graph:<br>
-![Timing Graph](path/to/your/timing_graph.png)
+![Timing Graph](TimingGraph.png)
 
 # 3.5: Training Loss, Accuracy, and Timing<br>
 ## Small Models:<br>
