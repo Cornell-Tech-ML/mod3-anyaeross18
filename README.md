@@ -34,7 +34,7 @@ The files that will be synced are:
 
 # 3.1 & 3.2 Parallel Analytics Script <br>
 ## MAP
-'''
+''''
 ================================================================================
 Parallel Accelerator Optimizing: Function tensor_map.<locals>._map,
 C:\Users\15184\OneDrive\Documents\Machine Learning
@@ -89,9 +89,10 @@ Parallel structure is already optimal.
 Allocation hoisting:
 No allocation hoisting found
 None
+''''
 
 ## ZIP
-
+''''
 ================================================================================
 Parallel Accelerator Optimizing: Function tensor_zip.<locals>._zip,
 C:\Users\15184\OneDrive\Documents\Machine Learning
@@ -159,9 +160,10 @@ Parallel structure is already optimal.
 Allocation hoisting:
 No allocation hoisting found
 None
+''''
 
 ## REDUCE
-
+''''
 ================================================================================
 Parallel Accelerator Optimizing: Function tensor_reduce.<locals>._reduce,
 C:\Users\15184\OneDrive\Documents\Machine Learning
@@ -207,9 +209,10 @@ Parallel structure is already optimal.
 Allocation hoisting:
 No allocation hoisting found
 None
+''''
 
 ## MATRIX MULTIPLY
-
+''''
 ================================================================================
 Parallel Accelerator Optimizing: Function _tensor_matrix_multiply,
 C:\Users\15184\OneDrive\Documents\Machine Learning
@@ -297,7 +300,8 @@ Parallel structure is already optimal.
 ---------------------------Loop invariant code motion---------------------------
 Allocation hoisting:
 No allocation hoisting found
-None'''
+None
+''''
 
 
 # Timing Graph 3.4:<br>
